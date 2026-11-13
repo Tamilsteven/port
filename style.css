@@ -1,0 +1,691 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+h1{
+    color: white;
+    position: relative;
+    margin-left: 3%;
+    top: 10px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Noto Serif Georgian', serif;
+}
+.content{
+  font-size: 1.5rem;
+    font-family: 'Cormorant Garamond', serif;
+  color: whitesmoke;
+}
+*{  
+  
+    box-sizing: border-box;
+    
+}
+.cv{
+  text-decoration: none;
+  color: black;
+  background-color: whitesmoke;
+}
+.cv:hover{
+  color: black;
+}
+h6{
+  text-align: center;
+  font-weight: 300;
+}
+@media screen and (max-device-width:640px) {
+  
+  
+
+header{
+  width: 162%;
+}
+#navbar{
+  top: 0;
+  height:15vh ;
+  padding-left: 8rem;
+  z-index: 22;
+  background-color:rgba(0,0,0,1.0);  
+
+}
+#john{
+  padding: 25vmin 8em;
+  padding-bottom: 30vmin;
+  font-family: var(--Rubik);
+  margin-top: 5%;
+  font-size: 0.7px;
+
+} 
+    
+.waviy {
+       
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 20px;
+}
+      
+.waviy span{
+    
+  padding: 0.1vmin 0em ;
+  font-size:20px ;
+  font-family: 'Cinzel', serif;
+  font-family: 'Cormorant Garamond', serif;
+  color: crimson;
+  position: relative;
+  display: inline-block;
+  animation: flip 2s infinite;
+  animation-delay: calc(.1s * var(--i));
+ 
+  
+
+}
+#imgs{
+  margin-left: 5%;
+  
+}
+#imgs img{
+  width: 80%;
+  border-radius: 55%;
+  object-fit: cover;
+  
+}
+.section-1 h1{
+  
+  margin-left: -55%;
+  
+  
+}
+  #para span{
+   
+    font-size: 1rem;
+
+  }
+ .container #para{
+   justify-content: space-between;
+    margin-left: 40%;
+    gap: 2px;
+  }
+  .text-centre{
+  margin-left: 62%;
+  }
+ .container .card-body{
+    width: 22rem;
+    height: 20em;
+    background-color: rgba(137, 79, 126, 0.292);
+    overflow: hidden;
+   
+    
+}
+
+#edu{
+ margin-left: 13%;
+  gap: 10px;
+}
+.project{
+  margin-right: -60%;
+}
+#carouselExampleControls{
+  margin-left: -20%;
+  margin-right: 10%;
+}
+.list ul,li{
+  padding-top:2%;
+  font-size:18px;
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: 13%;
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 3%;
+ 
+}
+.section-3{
+  width: 70vh;
+  margin-left: 30%;
+  
+}
+.section-3 H2{
+    padding-top: 20%;
+}
+.section-4{
+  margin-left: 2%;
+  gap: 5px;
+  
+ 
+}
+
+ .section-4 .card-title{
+    margin-left: 50%;
+    padding-bottom: 3%;
+    
+  }
+ .section-4 .add{
+    font-size:0.8rem ;
+    padding-right:10% ;
+  }
+  .scl{
+    position: absolute;
+    font-size: 0.8rem;
+    padding-left: 8%;
+  }
+  .media{
+    position: absolute;
+    font-size: 0.8rem;
+    padding-left:45%;
+    
+  }
+ .section-4 svg{
+    padding-right: 14%;
+    margin-left: -10%;
+    gap: 2px;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+}
+h1 span{
+  color: crimson;
+}
+#navbar{
+  top:0;
+  position: fixed;
+  transition:top 0.3s;
+  padding-left: 8rem;
+  z-index: 22;
+  background-color:rgb(0,0,0,1.0); 
+  height: 10vh;
+
+}
+
+
+.nav-item a{
+    color:white;
+    letter-spacing: 3px; 
+    font-style: bold;
+    display:inline-flex;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Noto Serif Georgian', serif;
+}
+.nav-item a:hover{
+    color:white ;
+    background-color: crimson;
+    border-radius: 10px;
+}
+.navbar-nav {
+  margin-left:20rem;
+  font-size:1.2em ;
+  margin-top:20px;
+}
+.nav-link{
+
+margin-left: 3rem;
+}
+.row h3{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    padding: 1vmin;
+    
+
+}
+/* #name{
+    margin-top:10%;
+    margin-left: 4%;
+} */
+ .waviy span{
+    
+    padding: 0.1vmin 0em ;
+    font-size:59px ;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    color: crimson;
+    position: relative;
+    display: inline-block;
+    animation: flip 2s infinite;
+    animation-delay: calc(.1s * var(--i));
+   
+    
+  
+}
+      
+
+   .waviy {
+       
+            position: relative;
+            -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+            font-size: 59px;
+          }
+            
+          
+          @keyframes waviy {
+            0%,40%,100% {
+              transform: translateY(0)
+            }
+            20% {
+              transform: translateY(-20px)
+            }
+          }
+          .dev span{
+            padding: 0.1vmin 0em ;
+            font-size:39px ;
+            font-family: 'Cinzel', serif;
+            font-family: 'Cormorant Garamond', serif;
+            color: crimson;
+            position: relative;
+            display: inline-block;
+            animation: flip 2s infinite;
+            animation-delay: calc(.1s * var(--i));
+          }
+          .dev{
+            position: relative;
+            -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+            font-size: 30px;
+          }
+          @keyframes dev {
+            0%,40%,100% {
+              transform: translateY(0)
+            }
+            20% {
+              transform: translateY(-20px)
+            }
+          }
+          .fresh span{
+            padding: 0.1vmin 0em ;
+            font-size:39px ;
+            font-family: 'Cinzel', serif;
+            font-family: 'Cormorant Garamond', serif;
+            color: crimson;
+            position: relative;
+            display: inline-block;
+            animation: flip 2s infinite;
+            animation-delay: calc(.1s * var(--i));
+          }
+          .fresh{
+            position: relative;
+            -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+            font-size: 39px;
+          }
+          @keyframes fresh {
+            0%,40%,100% {
+              transform: translateY(0)
+            }
+            20% {
+              transform: translateY(-20px)
+            }
+          }
+#imgs{
+    padding: 4.2vmin 1vmin;
+    
+}
+#imgs img{
+    width: 90%;
+    border-radius: 55%;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+#john{
+    padding: 25vmin 8em;
+    padding-bottom: 30vmin;
+    font-family: var(--Rubik);
+    margin-top: 5%;
+
+}
+.section-1 h1{
+    margin-top:10%;
+    left: 78%;
+    color:black;
+    padding-bottom: 5%;
+    letter-spacing: 3px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Noto Serif Georgian', serif;
+    
+    
+}
+.section-1 a{
+    text-decoration: none;
+    color: black;
+}
+.section-1 a:hover{
+    color: black;
+}
+#para{
+  margin: 0;
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #000; */
+ 
+}
+.slider{
+  position: relative;
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: 7%;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  /* background: linear-gradient(90deg, #000, #fff, #000); */
+  background-repeat: no-repeat;
+  background-size: 80%;
+ 
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+ /* #para{
+     display:inline-block;
+     padding-top:2%; 
+   
+   font-size:28px;
+   font-family: 'Cormorant Garamond', serif;
+   margin-left: 7%;
+   width: 90%;
+   border-radius: 10px;
+   transform: scale(0.94);
+   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+} */
+/* @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  } */
+  
+  span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  
+  span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(5) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(6) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(7) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(8) {
+    animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(9) {
+    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(10) {
+    animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(11) {
+    animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(12) {
+    animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(13) {
+    animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(14) {
+    animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(15) {
+    animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(16) {
+    animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(17) {
+    animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(18) {
+    animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+  
+  
+  
+  Resources
+.text-centre{
+    text-align: center;
+    margin-right:2% ;
+    color:black;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Noto Serif Georgian', serif;
+    padding-top: 2%;
+    letter-spacing: 3px;
+}
+.list{
+  text-align:justify;
+  padding-top:2%;
+  font-size:28px;
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: 7%;
+  width: 90%;
+  border-radius: 10px;
+  padding-bottom: 3%;
+  
+}
+.row{
+    padding: 10vmin 4vmin;
+    
+   
+}
+.card-body{
+    width: 22rem;
+    height: 20em;
+    background-color: rgba(137, 79, 126, 0.292);
+   
+    
+}
+#edu{
+  padding-left: 5%;
+}
+.section-2 h1{
+  color: black;
+  text-align: center;
+}
+/* .section-2{
+    background-color:lightseagreen;
+    padding-top: 2%;
+    border-radius:3px ;
+} */
+.section-2.card-text{
+    padding: 0.4em;
+    cursor: pointer;
+}
+.card-title{
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+.card-text{
+    font-family: 'Nanum Myeongjo', serif;
+    padding-top: 3%;
+    text-align: center;
+    font-weight: bolder;
+    
+   
+   
+
+}
+.card-text{
+    color: var(light black);
+}
+.project h1{
+  color: black;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Noto Serif Georgian', serif;
+  padding-top: 2%;
+  letter-spacing: 3px;
+  padding-bottom: 3%;
+}
+.text p{
+  padding-top: 2%;
+  text-align: center;
+  font-size:25px;
+   font-family: 'Cormorant Garamond', serif;
+   padding-bottom: 5%;
+   font-weight:bold ;
+   
+}
+.section-3{
+   padding-top: 1%;
+   background-color: lightseagreen;
+   width:102%;
+   color: white;
+   
+}
+
+.rect{
+   position: relative;
+   background-color:whitesmoke;
+   z-index: 1;
+   height:10rem ;
+   width:20rem;
+   margin: 0.9rem;
+   padding-top:4% ;
+   margin-top: 2%;
+   margin-bottom:8% ;
+   border-radius: 5px;
+   transition: transform .2s;
+
+}
+.rect:hover{
+  transform: scale(1.1);
+}
+.rect h2{
+  
+  
+    color:crimson;
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+    font-weight: bold;
+    
+    
+}
+.section-3 h1{
+    font-family: 'Rampart One', cursive;
+    font-weight: bold;
+    color: black;
+}
+
+footer{
+   display:block;
+   position: relative;
+   margin: auto;
+   padding-bottom: 15%;
+   
+   
+}
+.section-4 h1{
+    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Noto Serif Georgian', serif;
+    color: black;
+    margin-top: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.section-4 .add{
+position: absolute;
+margin-left: 5%;
+font-family: 'Yeseva One', cursive;
+
+
+} 
+
+.section-4 .scl{
+    position: absolute;
+    text-align:justify;
+    margin-left:40%;
+    font-family: 'Yeseva One', cursive;
+    
+}
+.section-4 .media{
+    position: absolute;
+    margin-left: 80%;
+    font-family: 'Yeseva One', cursive;
+}
+.active {
+  color: lime; 
+  font-weight: 600;
+}
+.slider-fluid{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width:80vh ;
+  margin-left: 25%;
+ 
+  
+  
+  
+}
+.carousel-item img{
+    width: 100%;
+    height: 50vh; 
+   
+}
+
+video{
+  width: 50%;
+  height: 100%;
+  margin-left:25% ;
+  
+}
