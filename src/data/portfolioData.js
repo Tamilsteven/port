@@ -89,12 +89,12 @@ export const projectsData = [
   {
     id: "ecommerce-platform",
     title: "E-Commerce Shopping Platform",
-    codeName: "Tapo-Trend",
+    codeName: "",
     category: "Frontend",
     status: "Completed",
     isFeatured: true,
     description: "A complete frontend e-commerce solution featuring rich product catalogs, real-time cart manipulation, category filtration, secure checkout workflow, and responsive mobile-first design.",
-    images: ["/images/home1.png"],
+    images: ["/images/shopping.png"],
     technologies: ["HTML5", "CSS3", "JavaScript", "React.js", "Node.js", "REST API", "Tailwind CSS"],
     highlights: [
       "Dynamic product catalog with multi-criteria category and price filtering.",
@@ -108,13 +108,13 @@ export const projectsData = [
   {
     id: "internal-approval-system",
     title: "Internal Approval Request Management System",
-    codeName: "WorkflowHub",
+    codeName: "",
     category: "MERN Fullstack",
     status: "In Progress",
     isFeatured: true,
     isInProgress: true,
     description: "An enterprise-grade internal governance platform to automate and monitor multi-stage employee requests, departmental approvals, role-based workflows, and audit logging.",
-    images: ["/images/home1.png"],
+    images: ["/images/approval.png"],
     technologies: ["MERN Stack", "React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth", "RBAC", "Tailwind CSS"],
     highlights: [
       "Multi-tiered approval pipeline: Initiator (Employee) -> Approver (Manager) -> Final Sign-off (Department Head).",
